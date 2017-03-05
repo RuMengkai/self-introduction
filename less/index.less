@@ -1,0 +1,323 @@
+@base: #3bafdA;
+@color: #4cdcc9;
+@red: #f00;
+@bg-1: #1e243a;
+@bg-2: #1e243a;
+@bg-3: #1e243a;
+@bg-4: #1e243a;
+@bg-5: #1e243a;
+@bg-6: #1e243a;
+@bg-7: #1e243a;
+
+
+.swiper-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: @color;
+}
+a{
+    color: @color;
+    text-decoration: underline;
+}
+.topk{
+    margin-top: .5rem;
+    position: relative;
+    width: 2rem;
+    margin-left: 50%;
+    left: -1rem;
+    height: 1rem;
+    line-height:.8rem;
+    text-align:center;
+    background:url(../images/xk.png);
+    background-size:2rem 1rem;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: .36rem;
+    background: #fff;
+    &:nth-child(1){
+        background: @bg-1;
+    }
+    &:nth-child(2){
+        background: @bg-2;
+    }
+    &:nth-child(3){
+        background: @bg-3;
+    }
+    &:nth-child(4){
+        background: @bg-4;
+    }
+    &:nth-child(5){
+        background: @bg-5;
+    }
+    &:nth-child(6){
+        background: @bg-6;
+    }
+    &:nth-child(7){
+        background: @bg-7;
+    }
+} 
+.arrowUp{
+    position:absolute;
+    width: .6rem;
+    left: -.3rem;
+    bottom: 0.1rem;
+    margin-left:50%;
+    img{
+        width: .6rem;
+    }
+}
+#one{
+    position: relative;
+    .up{
+        padding-top: 1px;
+        position: relative;
+        height: 4.2rem;
+        img{
+            display: block;
+            position: absolute;
+        }
+        img.bg{
+            margin-top: .4rem;
+            height:3.6rem;
+            width: 100%;
+        }
+        img.grjl{
+            height: .54rem;
+            width: 2.8rem;
+            margin-top: 1rem;
+            left: -1.4rem;
+            margin-left: 50%;
+        }
+        .zhe{
+            margin-top: .4rem;
+            width: 100%;
+            height:3.6rem;
+            position: absolute;
+            background: rgba(30,30,95,0.5);
+        }
+        .headimg{
+            height: 2.8rem;
+            width: 2.8rem;
+            left:-1.4rem;
+            margin-left:50%;
+            border-radius: 50%;
+            margin-top: 3rem;
+            z-index: 2;
+            background: rgba(0,0,0,0.5);
+            position: relative;
+            img{
+                height: 2.4rem;
+                width: 2.4rem;
+                border-radius: 50%;
+                margin-left:.2rem;
+                margin-top: .2rem;
+            }
+        }
+    }
+    .down{
+        padding-left: 0.4rem;
+        position: relative;
+        width: 100%;
+        line-height: .5rem;
+        height: 4.3rem;
+        text-align:left;
+        top: 2rem;
+        font-size: .28rem;
+        font-weight: block;
+    }
+    .info{
+        position: relative;
+        width: 2rem;
+        height: 1rem;
+        top: -1rem;
+        left:4rem;
+        background:url(../images/xk.png) 0 0 no-repeat;
+        background-size:2rem 1rem;
+        .grxx{
+            line-height:.8rem;
+        }
+    }
+}
+#two{
+    text-align: center;
+    .gzjy{
+       .topk;
+    }
+    .sx{
+        margin-top: .2rem;
+        width: .02rem;
+        height: 9rem;
+    }
+    .dian{
+        span{
+            display: block;
+            position: absolute;
+            z-index: 100;
+            width: .2rem;
+            height: .2rem;
+            border-radius:.1rem;
+            background:@color;
+            margin-left:50%;
+            left:-.1rem;
+            &:nth-child(1){
+                top:2.5rem;
+            }
+            &:nth-child(2){
+                top:4.2rem;
+            }
+            &:nth-child(3){
+                top:5.9rem;
+            }
+            &:nth-child(4){
+                top:7.6rem;
+            }
+            &:nth-child(5){
+                top:9.3rem;
+            }
+        }
+    }
+    .jy{
+        position: absolute;
+        top:0;
+        font-size:.24rem;
+        text-align:left;
+        padding-left:.2rem;
+        line-height:.4rem;
+        &.l1{
+            top:2rem;
+        }
+        &.l2{
+            top:5.4rem;
+        }
+        &.l3{
+            top:9.2rem;
+        }
+        &.r1{
+            right:.2rem;
+            top:4rem;
+        }
+        &.r2{
+            right:.2rem;
+            top:7.2rem;
+        }
+    }
+}
+#three{
+    .scjn{
+        .topk;
+
+    }
+    .qzyx{
+        top:5.2rem;
+        .topk;
+    }
+    .jn{
+        border-radius:50%;
+        position: absolute;
+        color: #fff;
+        &.jn1{
+            background: #155dde;
+            top:2rem;
+            left:1.6rem;
+            width: 1.8rem;
+            height: 1.8rem;
+            line-height:1.8rem;
+        }
+        &.jn2{
+            background: #1abd4e;
+            top:4.7rem;
+            left:3.3rem;
+            width: 1.64rem;
+            height: 1.64rem;
+            line-height:1.64rem;
+        }
+        &.jn3{
+            background:#d57a02;
+            top:2.8rem;
+            left:3.75rem;
+            width: 1.4rem;
+            height: 1.4rem;
+            line-height:1.4rem;
+        }
+        &.jn4{
+            background: #9f1cbf;
+            top:4.5rem;
+            left:1.3rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            line-height:1.25rem;
+        }
+    }
+    .zw{
+        position: absolute;
+        left:.5rem;
+        font-size:.28rem;
+        color:#fff;
+        top:9rem;
+        background: #2acdb4;
+        padding:.2rem;
+    }
+    .xz{
+        position: absolute;
+        font-size:.28rem;
+        color:#fff;
+        top:9rem;
+        background: #be4b75;
+        padding:.2rem;
+        right:.5rem;
+    }
+
+}
+#four{
+    position: relative;
+    width: 100%;
+    .zwpj{
+        .topk;
+    }
+    .pjcon{
+        margin-top: .8rem;
+        margin-left:50%;
+        height: auto;
+        position: absolute;
+        text-align:left;
+        width: 5.5rem;
+        left:-2.75rem;
+        font-size:.24rem;
+        line-height:.4rem;
+    }
+    .ewm{
+        p{
+            width: 3rem;
+            position: absolute;
+            text-align:center;
+            margin-left:50%;
+            left:-1.5rem;
+        }
+        .p1{
+            font-size:.40rem;
+            margin-top: 4.2rem;
+        }
+        img{
+            width: 2.8rem;
+            margin-top: 5rem;
+            position: absolute;
+            left:-1.4rem;
+            margin-left:50%
+        }
+        .p2{
+            font-size:.24rem;
+            margin-top: 7.8rem;
+        }
+    }
+}
+#music{
+    position: absolute;
+    z-index: 100;
+    right: .4rem;
+    top: 0rem;
+    img{
+        width: .8rem;
+    }    
+}
