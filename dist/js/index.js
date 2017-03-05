@@ -174,7 +174,7 @@ $("#music").on("click",function(){
 	}else{
 		ado.pause();
 		isPlay = true;
-		$("#music img").attr("src","images/musicBtnOff.png"); 
+		$("#music img").attr("src","images/musicBtnOff.png");
 	}
 });
 
